@@ -53,4 +53,11 @@ void pop()
     cout << "Popped value: " << top->data << endl;
     top = top->next; //Update the top pointer to the next node 
 }
-}
+//peek/top operation: retrieve the value of the topmost element without removing it
+    void peek()
+    {
+        if (isEmpty())
+        {
+            cout << "lis is empty" << endl;
+        }
+ 
