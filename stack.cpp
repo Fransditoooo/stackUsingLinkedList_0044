@@ -33,3 +33,4 @@ int push(int value)
     newNode->data = value; // 2. assign value
     newNode->next = top; // 3. Set the next poinnter of the new node to the current top n
     
+    
