@@ -73,4 +73,8 @@ void pop()
     }
 };
 
-}
+int main()
+{
+    Stack stack;
+    
+  
